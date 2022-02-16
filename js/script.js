@@ -4,6 +4,7 @@ $('a').click(function(e){
     $('.container').removeClass('slide-right');
     $(select).addClass('slide-right');
     $('a').removeClass('active');
+    $(this).addClass('active');
     $('.container').removeClass('active');
     $(select).addClass('active');
     
